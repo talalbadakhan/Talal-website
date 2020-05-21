@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    background-color: transparent;
+    border-top: 7px;
+    border-style: dotted none none;
+    border-color: #eaf6f6;
+    width: 5%;
+}
+
+.top-container {
+    background-color: #e4f6f6;
+    padding-top: 100px;
+    position: relative;
+}
+
+.mountain {
+    height: 320px;
+    width: 500px;
+}
+
+.top-cloud {
+    height: 70px;
+    width: 150px;
+    position: absolute;
+    right: 350px;
+    top: 30px;
+}
+
+.bottom-cloud {
+    height: 70px;
+    width: 150px;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+
+}
+.middle-container {
+    padding-top: 10px;
+}
+.profile-pic {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row p {
+    color: #40514E;
+}
+.web {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.mobile {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.links {
+    padding: 50px;
+}
+.bottom-container {
+    height: 200px;
+    background-color: #66BFBF;
+}
+.bottom-container p {
+    color: #EAF6F6;
+    margin: 0;
+}
+.footer-link {
+    color: #11999E;
+    text-decoration: none;
+    padding: 30px;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #66BFBF;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.btn:hover {
+    background-color: #66BFBF
+}
+.btn:active {
+    background-color: #66BFBF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.email-me {
+    margin: 50px 0;
+}
